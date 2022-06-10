@@ -32,6 +32,18 @@
 
 <style>
   .pokemon-list {
+    margin: 0 auto;
+    max-width: 65em;
     padding: 1.8em;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (min-width: 40em) {
+    .pokemon-list {
+      gap: 2em;
+    }
   }
 </style>
